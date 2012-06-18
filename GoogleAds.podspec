@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.homepage = 'https://developers.google.com/mobile-ads-sdk/download#downloadios'
   s.source_files = '*.h', 'Mediation/*.h'
-  s.preserve_paths = 'libGoogleAdMobAds.a'
-  s.frameworks = 'AudioToolbox', 'MessageUI', 'SystemConfiguration', 'CoreGraphics'
+  s.preserve_paths = 'libGoogleAdMobAds.a', 'Mediation'
+  s.frameworks = 'AudioToolbox', 'MessageUI', 'SystemConfiguration', 'CoreGraphics', 'libGoogleAdMobAds.a'
   s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(SRCROOT)/Pods/GoogleAds"' }
 end
