@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "GADBannerView.h"
-#import "GADInterstitial_Extension.h"
+#import "GADInterstitial.h"
 
 @protocol GADAppEventDelegate <NSObject>
 
